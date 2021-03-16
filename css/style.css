@@ -1,0 +1,133 @@
+.navbar{
+    background-color: rgb(53, 144, 197);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1{
+    font-size: 35px;
+    color: #777;
+    font-style: italic;
+    text-align: center;
+
+}
+.navbar-brand img{
+    width: 60px;
+    padding-left: 20px;
+    padding-top: 2px;
+
+    
+ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#fff;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+   
+    background: #fff;
+        background-image: none;
+    outline: none;}
+    .navbar-toggler{
+        outline: none !important;
+    }
+  
+h1::after{
+    content: '';
+    background: black;
+    display: block;
+    height: 3px;
+    width: 200px;
+    margin: 15px auto;
+}
+p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.img1{
+    background-size: cover;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#menu{
+ background-color: rgb(247, 242, 242);
+
+ font-weight: 600;
+ font-family: sans-serif;
+ padding: 50px;
+ 
+}    
+#services{
+    background: rgb(255, 255, 255);
+    padding: 80px;
+
+ 
+  
+}
+#blog{
+    padding: 100px;
+    
+}
+#price{
+    padding: 100px;
+}
+.ims{
+    transition: .7s;
+    
+}
+.ims:hover{
+    transform:scale(1.1);
+}
+.text{
+    background-color: rgb(34, 33, 33);
+    color: #fff;
+    padding: 20px;
+}
+.menu{
+    background-color:#fff;
+    color:black;
+    padding: 15px;
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(104, 167, 219);
+    font: 400;
+    padding: 5px;
+}
+#progres{
+    padding: 100px;
+}
+#fotter1{
+    text-align: center;
+    background-color: rgb(36, 33, 33);
+    
+    font-size: 25px;
+    padding: 20px;
+}
+i{
+    font-size: 50px;
+    color:black;
+}
+i:hover{
+    color: blue;
+}
